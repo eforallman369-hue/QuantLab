@@ -1,2 +1,0 @@
-# QuantLab
-All test math
