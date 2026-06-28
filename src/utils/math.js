@@ -129,7 +129,7 @@ export const cvar = (dailyReturns, confidence = 0.95) => {
  * b = avg_win / avg_loss (odds)
  * p = win rate
  * q = 1 - p
- * Gunakan half-Kelly (f*/2) untuk safety
+ * Gunakan half-Kelly (f* / 2) untuk safety.
  */
 export const kellyFraction = (winRate, avgWin, avgLoss) => {
   if (avgLoss === 0 || avgWin === 0) return 0;
